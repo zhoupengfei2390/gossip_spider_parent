@@ -1,5 +1,7 @@
 package com.itheima.spider.httpclient;
 
+import org.apache.http.Header;
+import org.apache.http.StatusLine;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -23,7 +25,18 @@ public class HeetclientGet {
         //2.5发送请求,获取响应对象
         CloseableHttpResponse response = httpClient.execute (httpGet);
         //3.获取响应:响应行 响应头响应体
+        //3.1获取响应行
+        StatusLine statusLine = response.getStatusLine ();
+        //3.2获取响应码
+        int statusCode = statusLine.getStatusCode ();
+        if(statusCode==200){
+            //3.3获取响应头
+            Header[] allHeaders = response.getAllHeaders ();
+            for (Header allHeader : allHeaders) {
+                System.out.println ("响应头:"+allHeader.getName ()+":====="+allHeader);
+            }
 
+        }
 
     }
 }
