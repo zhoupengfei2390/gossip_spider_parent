@@ -1,3 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
-/gossip_spider_deploy/src/test/
 /gossip_spider_deploy/gossip_spider_deploy.iml
+/.idea/
+/gossip_spider_parent.iml
+/gossip_lucene/gossip_lucene.iml
+/gossip_spider_base/gossip_spider_base.iml
+/gossip_spider_base/target/
+/gossip_spider_deploy/target/
+/gossip_spider_news/gossip_spider_news.iml
+/gossip_spider_news/target/
+/gossip_spider_redis/target/
+/gossip_spider_redis/gossip_spider_redis.iml

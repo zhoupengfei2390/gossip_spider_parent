@@ -87,7 +87,7 @@
                 <configuration>
                     <archive>
                         <manifest> <!-- 注意 此为设置程序的主入口-->
-                            <mainClass>com.itheima.spider.news.news163.News163Spider</mainClass>
+                            <mainClass>com.itheima.spider.news.version2.PublicDaoNode</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

@@ -13,6 +13,7 @@
         <module>gossip_spider_base</module>
         <module>gossip_spider_news</module>
         <module>gossip_spider_deploy</module>
+        <module>gossip_lucene</module>
     </modules>
     <dependencies>
         <dependency>
