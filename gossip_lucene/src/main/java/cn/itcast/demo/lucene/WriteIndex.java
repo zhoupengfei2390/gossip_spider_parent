@@ -31,14 +31,14 @@ public class WriteIndex {
             //2.构建文文档,创建一条数据
             Document doc = new Document ();
             doc.add (new IntField ("id", i, Field.Store.YES));
-            doc.add (new StringField ("title", "向太陈岚给向佐和郭碧婷的照片加爱心，准婆婆发声：情多在珍惜", Field.Store.YES));
+            doc.add (new StringField ("title", "流浪地球", Field.Store.YES));
             doc.add (new TextField ("content", "《流浪地球》的票房已经41亿了，已经逼近吴京的《战狼2》，谁能想到当初一个连宣传都少得可怜的电影，最后却爆发了这么大的能量。而吴京也再次红火了起来，成为国内最新的票房红人。除了电影之外，吴京本人的一……", Field.Store.YES));
             docs.add (doc);
         }
         for (int i = 1; i <= 100; i++) {
             Document doc = new Document ();
             doc.add (new IntField ("id", i, Field.Store.YES));
-            doc.add (new StringField ("title", "杨颖后援会称《跑男》为某综艺，还列举五大罪状，网友：开撕了？", Field.Store.YES));
+            doc.add (new StringField ("title", "杨颖", Field.Store.YES));
             doc.add (new TextField ("content", "相信在很多观众眼中，杨颖都是《跑男》的团宠吧，不仅每一次游戏大家都会照顾她，在第五季的时候，为了保持她团宠的地位，甚至不惜得罪了当时流量惊人的小花迪丽热巴，将热巴排挤出了跑男团，坐实了她团宠的位置。……", Field.Store.YES));
             docs.add (doc);
         }

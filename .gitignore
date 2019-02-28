@@ -10,3 +10,7 @@
 /gossip_spider_news/target/
 /gossip_spider_redis/target/
 /gossip_spider_redis/gossip_spider_redis.iml
+/gossip_lucene/target/
+/gossip_lucene/gossip_lucene.iml/
+
+
