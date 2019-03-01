@@ -14,6 +14,7 @@
         <module>gossip_spider_news</module>
         <module>gossip_spider_deploy</module>
         <module>gossip_lucene</module>
+        <module>gossip_solr</module>
     </modules>
     <dependencies>
         <dependency>

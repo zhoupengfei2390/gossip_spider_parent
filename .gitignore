@@ -14,3 +14,5 @@
 /gossip_lucene/gossip_lucene.iml/
 
 
+/gossip_solr/gossip_solr.iml
+/gossip_solr/target/
